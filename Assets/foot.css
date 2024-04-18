@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.footer-fix-2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    min-height: 20px;
+    z-index: 998;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .footer-fix-2 {
+        display: none;
+    }
+}
+
+.footer-menu-left-2 {
+    float: left;
+    display: inline-block;
+    padding-left: 10px;
+    position: relative;
+    z-index: 9;
+    padding-top:
+}
+
+@media (max-width: 1024px) {
+    .footer-menu-left-2 {
+        padding-left: 10px;
+    }
+    .footer-menu-right-2 {
+        margin-top: 4px;
+        padding-right: 13px;
+    }
+}
+
+.page-section-nav-2 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 9px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 19px;
+    letter-spacing: 1px
+}
+
+.page-section-nav-2 li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page-section-nav-2 li a {
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+}
+
+.page-section-nav-2 li a:hover {
+    color: #9c5b57;
+}
+
+.footer-menu-left-2 {
+    float: left;
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+    z-index: 9;
+}
+
+.footer-menu-right-2 {
+    float: right;
+    display: inline-block;
+    font-size: 11px;
+    position: relative;
+}
+
+.footer-fix-2 a {
+    padding: 15px 10px !important;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.footer-fix-2 a:hover {
+    color: #9c5b57;
+    font-weight: 100;
+    font-size: 12px;
+}
